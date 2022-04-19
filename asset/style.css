@@ -88,7 +88,7 @@
   }
 }
 
-@media (min-width:768px) {
+@media (min-width:1024px) {
 
     .contenedor{
         display: grid;
@@ -137,7 +137,10 @@
     margin-right: 10px;
     
 }
-
+.navegador{
+    display: flex;
+    
+}
 .navegador a{
     display: inline-block;
     text-align: center;
@@ -165,6 +168,8 @@
     grid-area: footer;
     display: flex;
     display: inline;
+    text-align: center;
+    padding: 25px;
     color: white;
     background: cornflowerblue;
     margin-top: 5px;
